@@ -10,7 +10,7 @@
 - How to run singularity containers on Lawrencium
 
 # Lawrencium Cluster Overview
-<center><img src="lrc.png"></center>
+<center><img src="figures/lrc.png"></center>
 
 # Lawrencium Condo Cluster
 - Lawrencium is a LBNL Condo Cluster Computing resources
@@ -40,7 +40,7 @@
 ) for details
 
 # Softwre Module Farm 
-<center><img src="SMF.png"></center>
+<center><img src="figures/SMF.png"></center>
 
 # Module commands
 - *module purge*: clear user’s work environment
@@ -79,7 +79,7 @@
     - Detailed [information](https://sites.google.com/a/lbl.gov/high-performance-computing-services-group/getting-started/remote-desktop)
 
 # Jupyterhub
-<center><img src="jupyter.png"></center>
+<center><img src="figures/jupyter.png"></center>
 [https://lrc-jupyter.lbl.gov](https://lrc-jupyter.lbl.gov)
 
 # Containerization
@@ -226,16 +226,19 @@ singularity inspect [options] image_name
     --environment
 ```
 
+# Singularity Python (spython)
+- Python API for Singularity containers
+```
+
+```
+
 # Run Singularity containers on Lawrencium
 - File transfer to LRC cluster
 ```scp xxx.sif $USER@lrc-xfer.lbl.gov:/your/path ```
 - Run your container interactively
-- Request an interactive compute node
-```singularity shell/run/exec container.sif```
+	- Request an interactive compute node
+	-```singularity shell/run/exec container.sif```
 - Submit a slurm job 
-
-# Container binging points
-
 
 # Job Submission Example
 ```
@@ -251,6 +254,9 @@ cd $SLURM_SUBMIT_DIR
 singularity exec your-container-name.sif CMD PARMs
 ```
 
+# Container binging points
+
+
 # Run a GPU container
 ```singularity shell --nv --bind ${CUDA_HOME} ...```
 
@@ -261,5 +267,6 @@ singularity exec your-container-name.sif CMD PARMs
 - Sending us tickets at hpcshelp@lbl.gov
 - More information, documents, tips of how to use LBNL Supercluster http://scs.lbl.gov/
 - DLab consulting: https://dlab.berkeley.edu/consulting
+
 
 
