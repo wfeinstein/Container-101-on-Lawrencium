@@ -10,7 +10,7 @@
 - How to run singularity containers on Lawrencium
 
 # Lawrencium Cluster Overview
-<center><img src="figures/lrc.png"></center>
+<center><img src="figures/lrc.png" width="50%"></center>
 
 # Lawrencium Condo Cluster
 - Lawrencium is a LBNL Condo Cluster Computing resources
