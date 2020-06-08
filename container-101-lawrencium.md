@@ -10,7 +10,7 @@
 - How to run singularity containers on Lawrencium
 
 # Lawrencium Cluster Overview
-<center><img src="figures/lrc.png" width="50%"></center>
+<center><img src="figures/lrc.png" width="80%"></center>
 
 # Lawrencium Condo Cluster
 - Lawrencium is a LBNL Condo Cluster Computing resources
@@ -40,7 +40,7 @@
 ) for details
 
 # Softwre Module Farm 
-<center><img src="figures/SMF.png"></center>
+<center><img src="figures/SMF.png" width="80%"></center>
 
 # Module commands
 - *module purge*: clear user’s work environment
@@ -79,7 +79,7 @@
     - Detailed [information](https://sites.google.com/a/lbl.gov/high-performance-computing-services-group/getting-started/remote-desktop)
 
 # Jupyterhub
-<center><img src="figures/jupyter.png"></center>
+<center><img src="figures/jupyter.png" width="80%"></center>
 [https://lrc-jupyter.lbl.gov](https://lrc-jupyter.lbl.gov)
 
 # Containerization
@@ -97,7 +97,7 @@
 
 
 # VM services 
-<center><img src="vm.png"></center>
+<center><img src="vm.png" width="70%"></center>
 [More information about VM](https://commons.lbl.gov/display/itfaq/SVM+-+Virtual+Machine+Hosting
 )
 
