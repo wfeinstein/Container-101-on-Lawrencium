@@ -48,11 +48,13 @@ On Mac, you’ll need to spin up a Linux VM in order to run Singularity. The eas
      - ```$ brew cask install vagrant```
 
 - Spin up a ubuntu/xenial64 VM from the [ubuntu/xenial64 vagrant box](https://app.vagrantup.com/ubuntu/boxes/xenial64):
-     - ```$ mkdir vm-singularity && cd vm-singularity
+     ```
+     - $ mkdir vm-singularity && cd vm-singularity
      - $ vagrant init ubuntu/xenial64 && vagrant up```
 
 - Login to the VM and check OS:
-     - ```$ vagrant ssh
+     ```
+     - $ vagrant ssh
      - $ vagrant@vagrant:~$ cat /etc/os-release
      - NAME=”Ubuntu” 
      - $ vagrant@vagrant:~$ cd /vagrant/; pwd
@@ -72,6 +74,7 @@ On Windows machines, you’ll need to spin up a Linux VM to run Singularity. The
 
 ## Reference
 [Installing Singularity](https://sylabs.io/guides/2.6/user-guide/installation.html)
+
 
 
 
