@@ -9,4 +9,4 @@ If you're not familiar with Git or Github you can download the materials as a [z
 
 This material is also available at http://scs.lbl.gov/getting-help
 
-We will have a video recording of the training.
+We will have a video recording of the training
